@@ -11,6 +11,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 16px 0;
   place-content: center;
 
   width: 100%;
