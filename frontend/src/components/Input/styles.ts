@@ -3,7 +3,7 @@ import Tooltip from '../Tooltip';
 
 interface ContainerProps {
   isFocused: boolean;
-  isFiled: boolean;
+  isFilled: boolean;
   isErrored: boolean;
 }
 
@@ -38,7 +38,7 @@ export const Container = styled.div<ContainerProps>`
     `}
 
   ${props =>
-    props.isFiled &&
+    props.isFilled &&
     !props.isErrored &&
     css`
       color: #ff9000;
